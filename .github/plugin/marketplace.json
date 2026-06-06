@@ -1,0 +1,19 @@
+{
+  "name": "rayfin-skills",
+  "owner": {
+    "name": "Microsoft",
+    "url": "https://www.microsoft.com"
+  },
+  "metadata": {
+    "description": "Official Rayfin agent skills for AI coding assistants",
+    "version": "0.3.0"
+  },
+  "plugins": [
+    {
+      "name": "rayfin",
+      "description": "Skills and MCP tools for building apps with Rayfin — getting started via the Rayfin CLI (scaffold/init), then in-project data modeling, auth, storage, querying, DAB config, deployment to Fabric, and client integration.",
+      "version": "0.3.0",
+      "source": ".github/plugin/plugins/rayfin"
+    }
+  ]
+}
